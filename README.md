@@ -25,7 +25,7 @@ print(diceware(3, ' '))
 -- 6 words, words spaced with '-'
 print(diceware(6, '-'))
 
--- 2 words, words spaced with '-', return a table
+-- 6 words, words spaced with '-', return a table
 local t = diceware(6, '-', true)
 ```
 
