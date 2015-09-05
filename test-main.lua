@@ -1,4 +1,4 @@
-local diceware = require('diceware')
+local diceware = require('./init')
 
 -- 6 words, this is default
 print(diceware())
